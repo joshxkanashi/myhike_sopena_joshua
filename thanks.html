@@ -34,7 +34,7 @@
     <!-------------------------------------------->
     <!-- Other libraries and styles of your own -->
     <!-------------------------------------------->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <link rel="stylesheet" href="./styles/style.css">
 
 </head>
@@ -49,13 +49,13 @@
 
     <!-- the body of your page goes here -->
     <!-- stuff -->
-    <div class="container">
-        <h1><span id="hikeName"> this hike</span></h1>
-        <div class="position-relative">
-            <img class="hike-img responsive" src="" />
-            <button class="btn btn-primary position-absolute bottom-0 end-0 m-3"
-                onclick="saveHikeDocumentIDAndRedirect()">Write
-                Review</button>
+    <div class="card text-center">
+        <div class="card-header">
+            Review received successfully!
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Thanks for submitting your review!</h5>
+            <a href="main.html" class="btn btn-primary">See More Hikes</a>
         </div>
     </div>
 
@@ -67,7 +67,6 @@
     <!---------------------------------------------->
     <script src="./scripts/firebaseAPI_TEAM99.js"></script>
     <script src="./scripts/skeleton.js"></script>
-    <script src="./scripts/eachHike.js"></script>
     <!-- <script src="./scripts/script.js"></script> -->
 
 </body>
