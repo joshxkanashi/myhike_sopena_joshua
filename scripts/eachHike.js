@@ -15,8 +15,8 @@ function displayHikeInfo() {
 
             // only populate title, and image
             document.getElementById("hikeName").innerHTML = hikeName;
-            let imgEvent = document.querySelector(".hike-img");
+            let imgEvent = document.querySelector(".hike-img"   );
             imgEvent.src = "../images/" + hikeCode + ".jpg";
         });
 }
-displayHikeInfo();
+displayHikeInfo();  
